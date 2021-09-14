@@ -1,0 +1,24 @@
+[package]
+name = "accumulator"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name="accumulator"
+path="src/main.rs"
+
+[lib]
+name="accumulator"
+path="src/lib.rs"
+
+[dependencies]
+config = { path="../config" }
+db = {path="../db"}
+accumulator_storage = {path="../accumulator_storage"}
+accumulator_trie = {path="../accumulator_trie"}
+ethereum-types = "0.11.0"
+impl-serde = "0.3.1"
+primitive-types = "0.10.1"
+ctrlc = "3.2.0"

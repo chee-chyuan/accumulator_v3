@@ -1,0 +1,9 @@
+[workspace]
+members = [
+    "accumulator", 
+    "config",
+    "accumulator_storage",
+    "accumulator_trie",
+    "db",
+    "accumulator_check_hash"
+]

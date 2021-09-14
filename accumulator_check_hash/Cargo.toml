@@ -1,0 +1,22 @@
+[package]
+name = "accumulator_check_hash"
+version = "0.1.0"
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "accumulator_check_hash"
+path = "src/main.rs"
+
+[lib]
+name = "accumulator_check_hash"
+path = "src/lib.rs"
+
+[dependencies]
+config = {path="../config"}
+accumulator_storage = {path = "../accumulator_storage"}
+accumulator_trie = {path = "../accumulator_trie"}
+tree_hash = "0.3.0"
+tree_hash_derive = "0.3.1"
+eth2_ssz_types = "0.2.0"
