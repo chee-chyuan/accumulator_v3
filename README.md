@@ -37,3 +37,5 @@ To start generating the master and epoch accumulator
 `cargo run -p accumulator_check_hash`
 
 To check if the generated epoch accumulator has a matching hash to the stored master accumulator
+
+To stop the program, use the `Ctrl+C` command to exit gracefully
